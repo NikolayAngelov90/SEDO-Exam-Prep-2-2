@@ -1,0 +1,76 @@
+# .gitignore for .NET projects
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+out/
+build/
+TestResults/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code settings (exclude workspace-specific settings)
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+
+# NuGet & packages
+packages/
+*.nupkg
+*.snupkg
+project.assets.json
+project.lock.json
+packages.lock.json
+
+# MSBuild and temporary files
+*.cache
+*.tlog
+*.lastbuildstate
+*.obj
+*.pch
+*.ipch
+
+# Publish / deployment
+PublishProfiles/
+*.Publish.xml
+*.pubxml.user
+*.azurePubxml
+
+# Test & coverage
+*.trx
+*.coverage
+coverage*.xml
+
+# Logs, temp files, OS files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+Thumbs.db
+desktop.ini
+
+# Secrets / local config
+local.settings.json
+secrets.json
+appsettings.*.Development.json
+
+# Third-party / tooling
+node_modules/
+.vscode-test/
+*.vsix
+
+# Optional: ignore compiled binaries (uncomment if you never check them in)
+# *.dll
+# *.exe
+# *.so
+# *.dylib
